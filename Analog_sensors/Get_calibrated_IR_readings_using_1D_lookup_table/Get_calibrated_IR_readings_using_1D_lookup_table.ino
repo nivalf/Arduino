@@ -37,6 +37,8 @@ void setup() {
 // Arduino loop function
 void loop() {
 
+  // Can add an averaging logic to reduce noise
+
   // Read the IR Value
   IRReading = analogRead(IRAnalogPin);
   // Perform the lookup table operation
