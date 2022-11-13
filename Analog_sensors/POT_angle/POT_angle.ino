@@ -27,5 +27,5 @@ void loop(void) {
   Serial.print(", Potentiometer angle= ");
   Serial.println(potAngle);
  
-  delay(10);
+  delay(300);
 }
